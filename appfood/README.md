@@ -1,4 +1,4 @@
-# app-leopard
+# appfood
 
 ## Project setup
 ```
