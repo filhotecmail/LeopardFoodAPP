@@ -47,7 +47,7 @@
               <a href="#" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">Button</a>
             </div>
           </div>
-          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-6 md:mr-8">
+          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-12 md:mr-8">
             <img class="w-full h-32" src="../img/food2.jpg" alt="Card image">
             <div class="p-4">
               <h3 class="text-gray-900 font-bold text-xl mb-2">Card 1</h3>
@@ -55,7 +55,7 @@
               <a href="#" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">Button</a>
             </div>
           </div>
-          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-6 md:mr-8">
+          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-12 md:mr-8">
             <img class="w-full h-32" src="../img/food2.jpg" alt="Card image">
             <div class="p-4">
               <h3 class="text-gray-900 font-bold text-xl mb-2">Card 1</h3>
@@ -63,7 +63,7 @@
               <a href="#" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">Button</a>
             </div>
           </div>
-          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-6 md:mr-8">
+          <div class=" bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-20 md:mr-8">
             <img class="w-full h-32" src="../img/food2.jpg" alt="Card image">
             <div class="p-4">
               <h3 class="text-gray-900 font-bold text-xl mb-2">Card 1</h3>
@@ -74,19 +74,24 @@
     </div>
 
     <!--Footer-->
-    <footer class="bg-gray-800 py-4 sm:py-4 p-6 fixed bottom-0 w-full">
-        <div class="flex justify-start sm:justify-end items-center px-2 py-2 space-x-6 lg:space-x-8">
-          <button class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto">
-            Botão 1
-          </button>
-          <button class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto text-center">
-            Botão 2
-          </button>
-          <button class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto">
-            Botão 3
-          </button>
-        </div>
-      </footer>
+    <footer class="bg-gray-800 py-4 sm:py-4 p-6 fixed bottom-0 w-full h-">
+      <div class="flex justify-start sm:justify-end items-center px-2 py-2 space-x-6 lg:space-x-8">
+        <router-link
+          to="/Foods-app"
+          class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto">
+          <button>Botão 1</button>
+        </router-link>
+  
+        <button
+          class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto text-center">
+          Botão 2
+        </button>
+        <button
+          class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto">
+          Botão 3
+        </button>
+      </div>
+    </footer>
          
     <!--End footer-->
            

@@ -48,18 +48,20 @@
           <div class="carousel-controls">
             <button
               class="mx-2 px-4 py-2 bg-gray-300 hover:bg-gray-500 rounded-full focus:outline-none"
-              @click="prevSlide">
+              @click="prevSlide"
+            >
               &larr;
             </button>
             <button
               class="mx-2 px-4 py-2 bg-gray-300 hover:bg-gray-500 rounded-full focus:outline-none"
-              @click="nextSlide">
+              @click="nextSlide"
+            >
               &rarr;
             </button>
           </div>
         </div>
       </div>
-      <div class="bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-6 md:mr-8">
+      <div class="bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-12 md:mr-8">
         <img class="w-full h-32" src="../img/food4.jpg" alt="Card image" />
         <div class="p-4">
           <h3 class="text-gray-900 font-bold text-xl mb-2">Card 1</h3>
@@ -70,18 +72,20 @@
           <div class="carousel-controls">
             <button
               class="mx-2 px-4 py-2 bg-gray-300 hover:bg-gray-500 rounded-full focus:outline-none"
-              @click="prevSlide">
+              @click="prevSlide"
+            >
               &larr;
             </button>
             <button
               class="mx-2 px-4 py-2 bg-gray-300 hover:bg-gray-500 rounded-full focus:outline-none"
-              @click="nextSlide">
+              @click="nextSlide"
+            >
               &rarr;
             </button>
           </div>
         </div>
       </div>
-      <div class="bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-6 md:mr-8">
+      <div class="bg-gray-100 w-72 rounded-lg shadow-lg overflow-hidden mb-12 md:mr-8">
         <img class="w-full h-32" src="../img/Food3.jpg" alt="Card image" />
         <div class="p-4">
           <h3 class="text-gray-900 font-bold text-xl mb-2">Card 1</h3>
@@ -92,7 +96,8 @@
           <div class="carousel-controls">
             <button
               class="mx-2 px-4 py-2 bg-gray-300 hover:bg-gray-400 rounded-full focus:outline-none"
-              @click="prevSlide">
+              @click="prevSlide"
+            >
               &larr;
             </button>
             <button
@@ -108,12 +113,13 @@
 
   <!--Footer-->
   <footer class="bg-gray-800 py-4 sm:py-4 p-6 fixed bottom-0 w-full h-">
-    <div
-      class="flex justify-start sm:justify-end items-center px-2 py-2 space-x-6 lg:space-x-8">
-      <button
+    <div class="flex justify-start sm:justify-end items-center px-2 py-2 space-x-6 lg:space-x-8">
+      <router-link
+        to="/Foods-app"
         class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto">
-        Botão 1
-      </button>
+        <button>Botão 1</button>
+      </router-link>
+
       <button
         class="bg-gray-700 hover:bg-gray-600 text-white py-1 px-3 rounded sm:flex-grow-0 sm:flex-shrink-0 w-full sm:w-auto text-center">
         Botão 2

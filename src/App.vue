@@ -21,5 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background: linear-gradient(#121212,#2A2426);
+  width: 100%;
+  height: 100%;
 }
 </style>
