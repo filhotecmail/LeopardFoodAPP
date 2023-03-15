@@ -33,7 +33,8 @@ const routes = [{
     name: 'Tabelas-produtos',
     path: '/tabelas-produtos',
     component: Tabelas,
-}
+},
+
 
 ];
 const router = Router();

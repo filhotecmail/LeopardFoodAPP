@@ -103,7 +103,7 @@
 </div>
 
   <!--Footer-->
-  <footer class="bg-gray-900 py-4 sm:py-4 p-6 fixed bottom-0 w-full h-">
+  <footer class="bg-gray-900 py-2 sm:py-4 p-6 fixed bottom-0 w-full h-14">
     <div class="flex justify-start sm:justify-end items-center px-2 py-2 space-x-6 lg:space-x-8">
       <router-link
         to="/Foods-app"
