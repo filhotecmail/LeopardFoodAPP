@@ -6,6 +6,9 @@ import Home from '../pages/Home-food'
 import profile from '../pages/profile-food'
 import Foods   from '../pages/Foods-app'
 import Tabelas   from '../pages/Tabelas-produtos'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
+import ModalApp from '../pages/ModalApp'
 
 const routes = [{
     name: `TelaInicial`,
@@ -34,7 +37,11 @@ const routes = [{
     path: '/tabelas-produtos',
     component: Tabelas,
 },
-
+{
+    name: 'ModalApp',
+    path: '/ModalApp',
+    component: ModalApp,
+},
 
 ];
 const router = Router();

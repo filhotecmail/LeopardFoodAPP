@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+//import modal
+import './pages/ModalApp.vue'
 
 // import css
 import './assets/css/app.css'
