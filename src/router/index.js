@@ -6,8 +6,8 @@ import Home from '../pages/Home-food'
 import profile from '../pages/profile-food'
 import Foods   from '../pages/Foods-app'
 import Tabelas   from '../pages/Tabelas-produtos'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.js'
+//import 'bootstrap/dist/css/bootstrap.css'
+//import 'bootstrap/dist/js/bootstrap.js'
 import ModalApp from '../pages/ModalApp'
 
 const routes = [{

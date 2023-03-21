@@ -1,10 +1,5 @@
 <template>
-  <ModalProvider>
     <routerView />
-  </ModalProvider>
-<ModalApp></ModalApp>
-
-
 </template>
 
 <script></script>

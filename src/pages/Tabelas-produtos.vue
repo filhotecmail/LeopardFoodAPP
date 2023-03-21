@@ -395,7 +395,7 @@
 import ModalApp from '../pages/ModalApp';
 
 export default {
-  name:'ModalApp',
+  name:'TabelasProdutos',
   components:{
     ModalApp
   },
